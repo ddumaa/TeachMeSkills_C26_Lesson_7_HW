@@ -8,20 +8,12 @@ public class Rectangle extends BaseFigure {
       this.length = length;
       this.width = width;
    }
-
    @Override
    public double areaCalculation() {
       return length * length;
    }
-
    @Override
    public double perimeterCalculation() {
       return (length + width) * 2;
    }
-
-
-   //public double square = length * length;
-   //public double perimeter = (length + width) * 2;
-
-
 }
